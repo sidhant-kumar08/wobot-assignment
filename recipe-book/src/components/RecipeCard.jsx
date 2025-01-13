@@ -11,7 +11,7 @@ function RecipeCard({ values }) {
   }
 
   return (
-    <div className="flex flex-col md:w-72 justify-center rounded-xl hover:scale-110 transition duration-100 ease-linear items-center border border-gray-300">
+    <div className="flex flex-col md:w-72 justify-center rounded-xl hover:scale-105 transition duration-100 ease-linear items-center border border-gray-300">
       <div>
         <img className="rounded-lg shadow-sm" src={values.image} alt={values.title} />
       </div>
