@@ -4,7 +4,7 @@ import parse from 'html-react-parser';
 function Shimmer() {
 
   return (
-    <div className="flex flex-col sm:w-72 md:96 h-72  justify-center bg-gray-200 rounded-xl hover:scale-110 transition duration-100 ease-linear items-center border border-gray-300">
+    <div className="flex flex-col w-72 h-72  justify-center bg-gray-200 rounded-xl hover:scale-110 transition duration-100 ease-linear items-center border border-gray-300">
       <div className='bg-gray-500'>
         <img className="rounded-lg shadow-sm" src='' alt='' />
       </div>
