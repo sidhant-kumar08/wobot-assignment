@@ -48,7 +48,7 @@ function Home() {
 
   return (
     <>
-      <div className="md:px-16 w-full h-10 flex gap-2 items-center justify-center">
+      <div className="px-4 md:px-16 w-full h-10 flex gap-2 items-center justify-center">
         <input
           className="border px-6 h-full w-full rounded-lg border-blue-500"
           type="text"
