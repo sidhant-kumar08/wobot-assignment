@@ -53,7 +53,7 @@ function Recipe() {
             }) || ''}
           </ul>
         </div>
-        <div className=''>
+        <div className='mb-6'>
           <h2 className='text-2xl underline text-center text-blue-500'>Instructions</h2>
           <ol className='flex list-decimal flex-col justify-start align-middle place-items-start'>
             {recipe.analyzedInstructions[0].steps.map((item, key) => {
